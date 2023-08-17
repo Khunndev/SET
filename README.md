@@ -15,4 +15,8 @@ Before running the script, make sure you have the following libraries installed:
 You can install them using the following command:
 
 ```bash
-pip install pandas pandas_ta mplfinance numpy tvDatafeed
+pip install pandas pandas_ta mplfinance numpy
+
+```bash
+pip install --upgrade --no-cache-dir git+https://github.com/rongardF/tvdatafeed.git
+
